@@ -1,0 +1,90 @@
+/*-----------------------------------------------*\
+    Extreme reset, based on Cleanslate css
+\*-----------------------------------------------*/
+%extreme-reset {
+  background-attachment: scroll;
+  background-color: transparent;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+  border-color: transparent;
+  border-radius: 0;
+  border-style: none;
+  border-width: 0;
+  bottom: auto;
+  clear: none;
+  clip: auto;
+  color: inherit;
+  counter-increment: none;
+  counter-reset: none;
+  cursor: auto;
+  direction: inherit;
+  display: inline;
+  float: none;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-variant: normal;
+  font-weight: inherit;
+  height: auto;
+  left: auto;
+  letter-spacing: normal;
+  line-height: inherit;
+  list-style-type:  inherit; /* Could set list-style-type to none */
+  list-style-position:  outside;
+  list-style-image:  none;
+  margin: 0;
+  max-height: none;
+  max-width: none;
+  min-height: 0;
+  min-width: 0;
+  opacity: 1;
+  outline: invert none medium;
+  overflow: visible;
+  padding: 0;
+  position: static;
+  quotes:  "" "";
+  right: auto;
+  table-layout: auto;
+  text-align: inherit;
+  text-decoration: inherit;
+  text-indent: 0;
+  text-transform: none;
+  top: auto;
+  unicode-bidi: normal;
+  vertical-align: baseline;
+  visibility: inherit;
+  white-space: normal;
+  width: auto;
+  word-spacing: normal;
+  z-index: auto;
+
+  /* CSS3 */
+  /* Including all prefixes according to http://caniuse.com/ */
+  /* CSS Animations don't cascade, so don't require resetting */
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-size: auto;
+  border-image: none;
+  border-radius: 0;
+  box-shadow: none;
+  box-sizing: content-box;
+  column-count: auto;
+  column-gap: normal;
+  column-rule: medium none black;
+  column-span: 1;
+  column-width: auto;
+  font-feature-settings: normal;
+  overflow-x: visible;
+  overflow-y: visible;
+  hyphens: manual;
+  perspective: none;
+  perspective-origin: 50% 50%;
+  backface-visibility: visible;
+  text-shadow: none;
+  transition: all 0s ease 0s;
+  transform: none;
+  transform-origin: 50% 50%;
+  transform-style: flat;
+  word-break: normal;
+}
